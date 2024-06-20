@@ -4,6 +4,19 @@ compatibility_date = "2024-06-14"
 compatibility_flags = ["nodejs_compat"]
 pages_build_output_dir = ".vercel/output/static"
 
+[[kv_namespaces]]
+binding = "WEATHER_CACHE"
+id = "a522a748c02140cea1b797c144c33fe7"
+preview_id = "91c582ca32c44fd3a75d5e0dffa4a4c2"
+
+[[env.preview.kv_namespaces]]
+binding = "WEATHER_CACHE"
+id = "91c582ca32c44fd3a75d5e0dffa4a4c2"
+
+[[env.production.kv_namespaces]]
+binding = "WEATHER_CACHE"
+id = "a522a748c02140cea1b797c144c33fe7"
+
 # Automatically place your workloads in an optimal location to minimize latency.
 # If you are running back-end logic in a Pages Function, running it closer to your back-end infrastructure
 # rather than the end user may result in better performance.
